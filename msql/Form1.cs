@@ -22,7 +22,7 @@ namespace msql
         private string alamat, query;
         public Form1()
         {
-            alamat = "server=localhost; database=db_ariel; username=root; password=;";
+            alamat = "server=localhost; database=db_karen; username=root; password=;";
             koneksi = new MySqlConnection(alamat);
 
             InitializeComponent();
@@ -40,6 +40,11 @@ namespace msql
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

@@ -22,7 +22,7 @@ namespace msql
         private string alamat, query;
         public FrmMain()
         {
-            alamat = "server=localhost; database=db_ariel; username=root; password=;";
+            alamat = "server=localhost; database=db_karen; username=root; password=;";
             koneksi = new MySqlConnection(alamat);
 
             InitializeComponent();

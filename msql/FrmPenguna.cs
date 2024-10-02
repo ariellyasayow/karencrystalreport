@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace msql
 {
-    public partial class FrmPenguna : Form
+    public partial class FrmPenguna: Form
     {
         public FrmPenguna()
         {
             InitializeComponent();
-        }
-
-        private void FrmPenguna_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
