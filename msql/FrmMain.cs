@@ -246,6 +246,12 @@ namespace msql
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmPengguna frmPengguna = new FrmPengguna();
+            frmPengguna.Show();
+        }
+
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Form1 frm = new Form1();
